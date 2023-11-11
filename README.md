@@ -1,7 +1,7 @@
 # ChessAI-in-Python
-Instructions
+Instructions: 
 Clone this repository.
-Select whether you want to play versus computer, against another player locally, or watch the game of engine playing against itself by setting appropriate flags in lines 52 and 53 of ChessMain.py.
+* Select whether you want to play versus computer, against another player locally, or watch the game of engine playing against itself by setting appropriate flags in lines 52 and 53 of ChessMain.py.
 Run ChessMain.py.
 Enjoy the game!
 Sic:
