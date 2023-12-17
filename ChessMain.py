@@ -1,7 +1,7 @@
 """
-Main driver file.
-Handling user input.
-Displaying current GameStatus object.
+File chính quản lý.
+Xử lý đầu vào từ người dùng.
+Hiển thị đối tượng GameStatus hiện tại.
 """
 import pygame as p
 import ChessEngine, ChessAI
