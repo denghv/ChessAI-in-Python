@@ -155,9 +155,9 @@ def drawGameState(screen, game_state, valid_moves, square_selected):
     """
     Chịu trách nhiệm về tất cả đồ họa trong trạng thái trò chơi hiện tại.
     """
-    drawBoard(screen)  # draw squares on the board
+    drawBoard(screen)  # vẽ các ô trong bảng ;
     highlightSquares(screen, game_state, valid_moves, square_selected)
-    drawPieces(screen, game_state.board)  # draw pieces on top of those squares
+    drawPieces(screen, game_state.board)  # vẽ các quân cờ nằm trên các ô
 
 
 def drawBoard(screen):
@@ -186,7 +186,7 @@ def highlightSquares(screen, game_state, valid_moves, square_selected):
     if square_selected != ():
         row, col = square_selected
         if game_state.board[row][col][0] == (
-                'w' if game_state.white_to_move else 'b'):  # square_selected is a piece that can be moved
+                'w' if game_state.white_to_move else 'b'):  # ô được chọn là quân cờ có thể được di chuyển;
             # đánh dấu ô đã chọn
             s = p.Surface((SQUARE_SIZE, SQUARE_SIZE))
             s.set_alpha(100)  # giá trị trong suốt 0 -> trong suốt, 255 -> không trong suốt
